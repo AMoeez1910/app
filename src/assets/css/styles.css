@@ -1,0 +1,6 @@
+.btn:hover {
+  color: var(--bs-btn-hover-color);
+  border-color: #4d2692;
+  background: #4d2692;
+}
+
