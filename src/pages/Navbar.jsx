@@ -1,6 +1,8 @@
 import React from 'react'
 import  '../assets/css/Navbar-Centered-Links-icons.css'
 import '../App.css'
+import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
+import logo from '../assets/images/logo.png'
 export const Navbar = () => {
   return (
     <nav
@@ -15,14 +17,8 @@ export const Navbar = () => {
       className="navbar-brand d-flex align-items-center"
       href="#"
     >
-      <span
-        style={{
-          color: '#ffffff'
-        }}
-      >
-        Revolut
-      </span>
-    </a>
+      <img src={logo} style={{ width: "100px" }} alt="Logo"></img>
+      </a>
     <button
       className="navbar-toggler"
       data-bs-target="#navcol-3"
@@ -88,6 +84,7 @@ export const Navbar = () => {
           textDecoration: 'none'
         }}
       >
+      <Person2OutlinedIcon sx={{ color: '#4d2692' }}/>
         Login
       </a>
       <button

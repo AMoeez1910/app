@@ -69,16 +69,6 @@
 }
 
 @media (min-width: 300px) {
-  .navbar {
-  }
-}
-
-@media (min-width: 300px) {
-  div {
-  }
-}
-
-@media (min-width: 300px) {
   .btn {
     margin-top: 10px;
     background: var(--bs-btn-active-bg);

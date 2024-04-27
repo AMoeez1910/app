@@ -26,7 +26,7 @@ function App() {
             textAlign: 'center'
           }}
         >
-          FAQs
+          FA<span style={{color:'#4d2692'}}>Qs</span>
         </h2>
         </header>
             <div

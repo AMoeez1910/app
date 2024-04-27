@@ -7,7 +7,7 @@ export const HeroContent = () => {
       <div className="row h-100">
         <div className="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
           <div>
-            <h2 className="text-uppercase fw-bold mb-3">Lets get started!</h2>
+            <h2 className="text-uppercase fw-bold mb-3">Lets get  <span style={{color:'#4d2692'}}>started!</span></h2>
             <p className="mb-4">Become part of AVTFAM</p>
             <a
               className="btn btn-primary btn-lg me-2"

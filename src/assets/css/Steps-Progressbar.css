@@ -63,3 +63,15 @@
   width: 150px;
   height: 45px;
 }
+@media (min-width: 300px) {
+  .steps-progressbar > ul > li:before {
+    width: 50px;
+  }
+  .steps-progressbar > ul > li.active:before {
+   
+    width: 60px;
+  }
+  .steps-progressbar > ul {
+    font-size: 12px;
+  }
+}

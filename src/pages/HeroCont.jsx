@@ -9,7 +9,7 @@ export const HeroCont = () => {
           <h2 className="text-uppercase fw-bold mb-3">
             Biben dum
             <br />
-            fringi dictum, augue purus
+            <span style={{color:'#4d2692'}}>fringi dictum, augue purus</span>
           </h2>
           <p className="mb-4">
             Etiam a rutrum, mauris lectus aptent convallis. Fusce vulputate
